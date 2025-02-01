@@ -1,0 +1,18 @@
+/* CSS fonts */
+/* font-family: x,y,z; z is parent of x,y. if x not work then y if y not then any in z family */
+/* font-size: px,em,rem,%,vw,vh */
+/* "Em" is quite handy as it scales proportionally with the parent element's font size, making it really useful for responsive design. */
+/* rem means propotional to root size */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 40px; */
+    /* font-size: 4em; */
+    /* font-size: 3rem; */
+    /* font-size: 200%; */
+}
+
+h3{
+    /* viewport width 20vw(20% of viewportwidth) */
+    /* font-size: 10vw; */
+    font-size: 10vh;
+}

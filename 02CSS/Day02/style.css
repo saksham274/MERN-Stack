@@ -1,0 +1,42 @@
+/* p,h1,h2,... ka child block element nhi ho skta */
+/* ul can only have li as their child as block level element while li can have anyone as child
+
+/* CSS color */
+
+/* 1. name color */
+
+h1{
+    color: blue;
+}
+
+/* 2. rgb 0-255*/
+h3{
+    color: rgb(13, 220, 18);
+}
+
+/* 3. hexadecimal color #(6 characters(0-f))*/
+
+/* h3{
+    color: #ff7700;
+} */
+
+/* 4. hsl hue(0-360) saturation(%) lightness(%) */
+/* h3{
+    color: hsl(40, 95%, 22%);
+} */
+
+/* 5. alpha(0-1)- represent opacity (can be added to rgba, #8char, hsla)*/
+/* h3{
+    color: rgba(70, 102, 200, 0.5);
+} */
+
+/* background color */
+/* body{
+    background-color: blanchedalmond;
+} */
+
+body{
+    background-image: url(../../01HTML/Day06/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,37 @@
+/* cascading */
+/* imp > type > specificity > order */
+/* order- jo baad me aaya usko priority */
+/* order:- */
+/* h1{
+    background-color: blanchedalmond;
+    background-color: red;
+} */
+
+/* specificity- id> attribute> class> child & descendent > element & group element*/
+h1{
+    background-color: blanchedalmond !important;
+}
+
+#first_id{
+    background-color: pink;
+}
+
+.first_class{
+    background-color: blueviolet;
+}
+
+h1[draggable]{
+    background-color: coral;
+}
+
+body h1{
+    background-color: black;
+}
+
+body > h1{
+    background-color: brown;
+}
+
+/* type- inline> internal & external(jo last me aayega uski jyada) */
+/* important */
+/* inheritance property */

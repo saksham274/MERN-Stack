@@ -1,0 +1,21 @@
+.first{
+    background-color: orange;
+}
+
+.second{
+    background-color: aqua;
+}
+
+span{
+    /* display block se span block element bn gya */
+    /* display: block; */
+    /* display inline-block se span inline element hi rahega pr kuch block prop like height width margin uss pr apply ho skengi */
+    display: inline-block;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+
+/* block element - height, width, margin */
+/* inline element - height, width nhi de skte and margin sirf horizontally milega */

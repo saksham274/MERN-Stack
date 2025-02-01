@@ -1,0 +1,28 @@
+h2{
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: brown; */
+    border-radius: 20px;
+    /* shorcuts */
+    border: 5px brown solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h4{
+    background-color: plum;
+    /* border-left: 10px blue solid; */
+    /* when we have 2 option for border width it will be allocated to top and bottom, right and left */
+    /* border-width: 10px 20px; */
+    border-width: 10px 20px 30px;
+    border-style: solid;
+    border-color: green;
+    /* box-sizing: border-box; */
+}
+
+ul{
+    background-color: pink;
+}

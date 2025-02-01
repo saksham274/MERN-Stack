@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+div{
+    height: 60vh;
+    width: 60vh;
+    background-color: red;
+    border-radius: 50%;
+    /* margin: auto; horizontally chejo ko center pe leke rkh deta h */
+    margin: auto;
+    margin-top: 20vh;
+}
